@@ -113,7 +113,6 @@ function createTransactionElement(transaction) {
   );
 
   const editButton = document.createElement('button');
-  editButton.setAttribute('data-testid', 'transactionItemEditButton');
   editButton.type = 'button';
   editButton.className =
     'tracker-transaction-item__btn tracker-transaction-item__btn--edit';
